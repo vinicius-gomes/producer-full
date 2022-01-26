@@ -1,0 +1,792 @@
+{
+  "ids": {
+    "idsOrder": [
+      "03-526145221"
+    ],
+    "idsDelivery": [
+      "352614522101",
+      "352614522102",
+      "352614522103"
+    ],
+    "idsDeliveryLine": [
+      "352614522101-01",
+      "352614522102-01",
+      "352614522103-01"
+    ],
+    "idsDeliveryPayment": [
+      "352614522103-1",
+      "352614522102-1",
+      "352614522101-1"
+    ]
+  },
+  "types": [
+    "order",
+    "delivery",
+    "deliveryline",
+    "deliverypayment"
+  ],
+  "event_time": "2020-12-08T19:05:15.123Z",
+  "scope": "suba",
+  "orders": [
+    {
+      "id": "03-526145221",
+      "type": "order",
+      "event_time": "2020-12-08T19:05:15.123Z",
+      "suba": {
+        "order:billing": {
+          "valueTotal": 210.1,
+          "valueDiscount": 9.03,
+          "valueDiscountCond": 0,
+          "valueDiscountUncond": 9.03,
+          "valueTotalFreight": 48.95,
+          "valueChargedFreight": 48.95,
+          "valueDiscountFreight": 0,
+          "valueCommercialFreight": 0,
+          "valueExpenses": 0
+        },
+        "order:customer": {
+          "idCustomer": "03-4893948878-1",
+          "idBrand": "03",
+          "personType": "PF",
+          "name": "marcos castro",
+          "nameFirst": "marcos",
+          "nameLast": "castro",
+          "nickname": "marcos",
+          "gender": "M",
+          "dateBirth": "1990-09-08T03:00:00.000Z",
+          "email": "marcostuliocdo@gmail.com",
+          "phones": {
+            "HOME": "+55 35 38412869",
+            "MOBILE": "+55 35 984154867"
+          },
+          "documentCustomer": "08525556602",
+          "documents": {
+            "PF": "08525556602"
+          },
+          "addresses": {
+            "5f47cda6a5a126337e772690": {
+              "idAddress": "5f47cda6a5a126337e772690",
+              "idCustomer": "03-4893948878-1",
+              "streetName": "Rua Gabriel P",
+              "number": "299",
+              "additionalInfo": "Casa",
+              "district": "Centro",
+              "city": "Conceição do Rio Verde",
+              "state": "MG",
+              "country": "",
+              "postalCode": "37430000",
+              "reference": "Rua que desce atrás da quadra",
+              "contactName": "Marcos Túlio Oliveira"
+            }
+          }
+        },
+        "order:general": {
+          "idOrder": "03-526145221",
+          "idBrand": "03",
+          "idSalesChannel": "INTERNET",
+          "nameBrand": "SUBMARINO",
+          "datePurchase": "2020-11-28T13:26:03.656Z",
+          "location": "3000",
+          "addressInfoBilling": "5f47cda6a5a126337e772690",
+          "addressInfoDelivery": "5f47cda6a5a126337e772690",
+          "dateCreated": "2020-11-28T13:26:06.597Z",
+          "timeDeliveryDays": 12,
+          "taxPayer": "N",
+          "mktOpn": ""
+        },
+        "order:properties": {
+          "properties": {
+            "deliveryAddressCep": "37430000",
+            "checkout-version": "default-sacola-order",
+            "server": "aws",
+            "os": "Android",
+            "osVersion": "10",
+            "vendor": "Unknown",
+            "type": "smartphone",
+            "mktName": "Generic Android Tablet",
+            "model": "Generic Android Tablet",
+            "appId": "MOBILEAPP",
+            "versionApp": "3.47.1",
+            "checkoutId": "4897b9d0-9d0b-461d-b275-fc3b3d3ce9c5",
+            "cartId": "42ccaaa8-5b5a-4285-bbd4-7021e11ab058",
+            "checkoutIdentityId": "74cec958-d428-4505-9cb5-e160946fa467",
+            "cartIdentityId": "c7cefd77-f4ab-4ec7-a538-39812a416a95",
+            "orderCashbackTotal": "1.60",
+            "ameFlow": "true",
+            "usuarioclubedecompras": "true",
+            "clubedecompras": "false",
+            "tid": "order-ed025f8e-9d4c-44de-9fc5-eaeeef06bc4a",
+            "coupon-token": "PELANDO10",
+            "coupon-discount-value": "9.03",
+            "coupon-category": "SUBTOTAL",
+            "b2w-uid": "3cf44c9eca15818c0a7f3dcc747397ee1b2ec055e8dd56ab3badd79e92eefefb75f8e152597dcc578cc61fcca673a76a",
+            "user-agent": "axios/0.19.0",
+            "freightPolicyId": "2020-11-27-SUBA-1",
+            "ENCRYPTED_ORDER_ID": "kp9INZQqUnburNqjkw6FuQ==",
+            "fingerprint": "150.2403011402929620202641124989",
+            "B2W-SID": "150.2403011402929620202641124989",
+            "B2W-PID": "",
+            "riskNavigationCookie": "",
+            "employeeId": "",
+            "pre-authorized-card-test-ab-value": "false",
+            "has_preauthorized": "true",
+            "new_wallet_customer": "false",
+            "dueDate": "2020-11-30",
+            "datePurchase": "2020-11-28T10:26:03.656-03:00",
+            "idBrand": "03",
+            "idSalesChannel": "INTERNET",
+            "location": "3000",
+            "timeDeliveryDays": "12",
+            "valueChargedFreight": "48.95",
+            "valueCommercialFreight": "0.0",
+            "valueDiscount": "9.03",
+            "valueDiscountCond": "0.0",
+            "valueDiscountFreight": "0.0",
+            "valueDiscountUncond": "9.03",
+            "valueExpenses": "0.0",
+            "valueTotal": "210.1",
+            "valueTotalFreight": "48.95"
+          }
+        },
+        "order:status": {
+          "statusOrder": "INC",
+          "dateStatusOrder": "2020-11-28T13:26:03.656Z",
+          "systemSource": "JUVENAL"
+        }
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "352614522101",
+      "type": "delivery",
+      "event_time": "2020-12-08T19:37:00.874Z",
+      "suba": {
+        "delivery:billing": {
+          "valueTotal": 35.26,
+          "valueDiscount": 2.03,
+          "valueDiscountCond": 0,
+          "valueDiscountUncond": 2.03,
+          "valueExpenses": 0
+        },
+        "delivery:freight": {
+          "valueTotal": 17,
+          "valueCharged": 17,
+          "timeFreightDays": 6,
+          "idContract": "B2WENDIREC",
+          "text": "receba entre 07 e 09 de dezembro",
+          "calculatedDate": "2020-12-09T03:00:00.000Z",
+          "dateTo": "2020-12-09T03:00:00.000Z",
+          "dateFrom": "2020-12-07T03:00:00.000Z"
+        },
+        "delivery:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522101",
+          "idCustomer": "03-4893948878-1",
+          "documentCustomer": "08525556602",
+          "datePurchase": "2020-11-28T13:26:03.656Z",
+          "email": "marcostuliocdo@gmail.com",
+          "inB2wEntregas": "S",
+          "seqDelivery": 1,
+          "idSeller": "21308800000144",
+          "idPartner": "21308800000144",
+          "idBusinessUnit": "MARKETPLACE",
+          "idCarrier": "",
+          "idWarehouse": "98",
+          "idSubinventory": "9801",
+          "codeAwb": "OM859375932BR",
+          "nameSeller": "MEGA MAQUIAGEM",
+          "namePartner": "MEGA MAQUIAGEM",
+          "typeDelivery": "VENDA",
+          "addressInfoDelivery": "5f47cda6a5a126337e772690",
+          "datePromised": "2020-12-09T03:00:00.001Z",
+          "invoiceNumber": "167376",
+          "invoiceSeries": "1",
+          "keyNfe": "35201221308800000144550010001673761726014451",
+          "dateInvoice": "2020-11-28T03:00:00.001Z",
+          "timePickupDays": 0,
+          "timeDeliveryDays": 7,
+          "targetSystem": "BOB",
+          "deliveryPlannedDate": "2020-12-09T03:00:00.001Z",
+          "deliveryReplannedDate": "2020-12-09T03:00:00.001Z",
+          "stockProperty": "3P",
+          "sellerType": "NO_TYPE",
+          "buyerType": "PF",
+          "valueInterest": 0,
+          "pickStore": "N",
+          "dateLimitExpedition": "2020-12-01T03:00:00.001Z",
+          "riskHold": false,
+          "dateRiskHold": "2020-11-28T13:26:46.413Z",
+          "paymentHold": false,
+          "datePaymentHold": "2020-11-28T13:29:34.380Z",
+          "comissionFreight": "S"
+        },
+        "delivery:properties": {
+          "properties": {
+            "deliveryCarrierDate": "2020-12-08T05:36:27.000-03:00",
+            "documentCarrier": "5886614000640",
+            "shippingMethodId": "1",
+            "shippingMethodName": "Courier",
+            "shippingMethodDisplayName": "Courier",
+            "calculationType": "b2wentregadirect"
+          }
+        },
+        "delivery:status": {
+          "dateStatusDelivery": "2020-12-08T08:36:27.000Z",
+          "trackingStatusDeliverySource": "EAA",
+          "trackingSystemSource": "BOB",
+          "operationType": "3P",
+          "properties": {
+            "NameCarrier": "B2W ENTREGA DIRECT",
+            "UrlCarrier": "https://corporativo.directlog.com.br/track_individual/index.asp?fase=&tipo=0&numtracking=OM859375932BR"
+          },
+          "idPartner": "21308800000144",
+          "idContract": "B2WENDIREC",
+          "freightDeliveryType": "CONVENTIONAL"
+        }
+      }
+    },
+    {
+      "id": "352614522102",
+      "type": "delivery",
+      "event_time": "2020-12-08T19:11:34.888Z",
+      "suba": {
+        "delivery:billing": {
+          "valueTotal": 78.91,
+          "valueDiscount": 7,
+          "valueDiscountCond": 0,
+          "valueDiscountUncond": 7,
+          "valueExpenses": 0
+        },
+        "delivery:freight": {
+          "valueTotal": 15.92,
+          "valueCharged": 15.92,
+          "timeFreightDays": 9,
+          "idContract": "B2WENPAC",
+          "text": "receba até 14 de dezembro",
+          "calculatedDate": "2020-12-14T03:00:00.000Z",
+          "dateTo": "2020-12-14T03:00:00.000Z",
+          "dateFrom": "2020-12-14T03:00:00.000Z"
+        },
+        "delivery:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522102",
+          "idCustomer": "03-4893948878-1",
+          "documentCustomer": "08525556602",
+          "datePurchase": "2020-11-28T13:26:03.656Z",
+          "email": "marcostuliocdo@gmail.com",
+          "inB2wEntregas": "S",
+          "seqDelivery": 2,
+          "idSeller": "28552079000182",
+          "idPartner": "28552079000182",
+          "idBusinessUnit": "MARKETPLACE",
+          "idCarrier": "",
+          "idWarehouse": "98",
+          "idSubinventory": "9801",
+          "codeAwb": "OL616318813BR",
+          "nameSeller": "hd importações",
+          "namePartner": "hd importações",
+          "typeDelivery": "VENDA",
+          "addressInfoDelivery": "5f47cda6a5a126337e772690",
+          "datePromised": "2020-12-14T03:00:00.001Z",
+          "invoiceNumber": "1717",
+          "invoiceSeries": "1",
+          "keyNfe": "35201128552079000182550010000017171123995671",
+          "dateInvoice": "2020-11-30T03:00:00.001Z",
+          "timePickupDays": 0,
+          "timeDeliveryDays": 10,
+          "targetSystem": "BOB",
+          "deliveryPlannedDate": "2020-12-14T03:00:00.001Z",
+          "deliveryReplannedDate": "2020-12-14T03:00:00.001Z",
+          "stockProperty": "3P",
+          "sellerType": "NO_TYPE",
+          "buyerType": "PF",
+          "valueInterest": 0,
+          "pickStore": "N",
+          "dateLimitExpedition": "2020-12-01T03:00:00.001Z",
+          "riskHold": false,
+          "dateRiskHold": "2020-11-28T13:27:00.082Z",
+          "paymentHold": false,
+          "datePaymentHold": "2020-11-28T13:28:38.944Z",
+          "comissionFreight": "S"
+        },
+        "delivery:properties": {
+          "properties": {
+            "deliveryCarrierDate": "2020-12-05T12:10:31.783-03:00",
+            "documentCarrier": "34028316306458",
+            "shippingMethodId": "1606569963323",
+            "shippingMethodName": "Pac",
+            "shippingMethodDisplayName": "Pac",
+            "calculationType": "b2wentregacorreios"
+          }
+        },
+        "delivery:status": {
+          "dateStatusDelivery": "2020-12-05T15:10:31.783Z",
+          "trackingStatusDeliverySource": "ENVAP",
+          "trackingSystemSource": "BOB",
+          "operationType": "3P",
+          "properties": {
+            "NameCarrier": "B2W ENTREGA CORREIOS",
+            "UrlCarrier": "https://www.linkcorreios.com.br/OL616318813BR",
+            "RatingExpiration": "2020-12-13T12:10:31.001-03:00",
+            "RatingToken": "5fcb00f4fdef15000732c052"
+          },
+          "idPartner": "28552079000182",
+          "idContract": "B2WENPAC",
+          "freightDeliveryType": "CONVENTIONAL"
+        }
+      }
+    },
+    {
+      "id": "352614522103",
+      "type": "delivery",
+      "event_time": "2020-12-08T19:11:57.966Z",
+      "suba": {
+        "delivery:billing": {
+          "valueTotal": 95.93,
+          "valueDiscount": 0,
+          "valueDiscountCond": 0,
+          "valueDiscountUncond": 0,
+          "valueExpenses": 0
+        },
+        "delivery:freight": {
+          "valueTotal": 16.03,
+          "valueCharged": 16.03,
+          "timeFreightDays": 11,
+          "idContract": "B2WENPAC",
+          "text": "receba até 16 de dezembro",
+          "calculatedDate": "2020-12-16T03:00:00.000Z",
+          "dateTo": "2020-12-16T03:00:00.000Z",
+          "dateFrom": "2020-12-16T03:00:00.000Z"
+        },
+        "delivery:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522103",
+          "idCustomer": "03-4893948878-1",
+          "documentCustomer": "08525556602",
+          "datePurchase": "2020-11-28T13:26:03.656Z",
+          "email": "marcostuliocdo@gmail.com",
+          "inB2wEntregas": "S",
+          "seqDelivery": 3,
+          "idSeller": "3645543000154",
+          "idPartner": "3645543000154",
+          "idBusinessUnit": "MARKETPLACE",
+          "idCarrier": "",
+          "idWarehouse": "98",
+          "idSubinventory": "9801",
+          "codeAwb": "OL616318725BR",
+          "nameSeller": "HAND MARKET",
+          "namePartner": "HAND MARKET",
+          "typeDelivery": "VENDA",
+          "addressInfoDelivery": "5f47cda6a5a126337e772690",
+          "datePromised": "2020-12-16T03:00:00.001Z",
+          "invoiceNumber": "11648",
+          "invoiceSeries": "1",
+          "keyNfe": "35201103645543000154550010000116481455772932",
+          "dateInvoice": "2020-11-28T03:00:00.001Z",
+          "timePickupDays": 0,
+          "timeDeliveryDays": 12,
+          "targetSystem": "BOB",
+          "deliveryPlannedDate": "2020-12-16T03:00:00.001Z",
+          "deliveryReplannedDate": "2020-12-16T03:00:00.001Z",
+          "stockProperty": "3P",
+          "sellerType": "NO_TYPE",
+          "buyerType": "PF",
+          "valueInterest": 0,
+          "pickStore": "N",
+          "dateLimitExpedition": "2020-12-01T03:00:00.001Z",
+          "riskHold": false,
+          "dateRiskHold": "2020-11-28T13:27:13.127Z",
+          "paymentHold": false,
+          "datePaymentHold": "2020-11-28T13:28:38.928Z",
+          "comissionFreight": "S"
+        },
+        "delivery:properties": {
+          "properties": {
+            "deliveryCarrierDate": "2020-12-05T12:10:53.790-03:00",
+            "documentCarrier": "34028316306458",
+            "shippingMethodId": "1606569963320",
+            "shippingMethodName": "Pac",
+            "shippingMethodDisplayName": "Pac",
+            "calculationType": "b2wentregacorreios"
+          }
+        },
+        "delivery:status": {
+          "dateStatusDelivery": "2020-12-05T15:10:53.790Z",
+          "trackingStatusDeliverySource": "ENVAP",
+          "trackingSystemSource": "BOB",
+          "operationType": "3P",
+          "properties": {
+            "NameCarrier": "B2W ENTREGA CORREIOS",
+            "UrlCarrier": "https://www.linkcorreios.com.br/OL616318725BR",
+            "RatingExpiration": "2020-12-13T12:10:53.001-03:00",
+            "RatingToken": "5fcb00d5912fd40007596a2c"
+          },
+          "idPartner": "3645543000154",
+          "idContract": "B2WENPAC",
+          "freightDeliveryType": "CONVENTIONAL"
+        }
+      }
+    }
+  ],
+  "deliverylines": [
+    {
+      "id": "352614522101-1",
+      "type": "deliveryline",
+      "event_time": "2020-12-08T19:14:08.869Z",
+      "suba": {
+        "deliveryline:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522101",
+          "idCustomer": "03-4893948878-1",
+          "idDeliveryLine": "352614522101-1",
+          "idSku": "1203400581",
+          "idWarehouse": "98",
+          "nameSku": "Kit com 6 Brilhos Gloss Labial com Glitter Unicornio Teen Infantil",
+          "typeStock": "IN_STOCK",
+          "natureSku": "product",
+          "timeLeadDays": 1,
+          "timePickupDays": 0,
+          "qtTotal": 1,
+          "idSkuPartner": "KIT6GLOSS701",
+          "marketplacePercentage": 14,
+          "promotion": [
+            {
+              "itemSequence": 1,
+              "promotionId": "SUBA3106714MKTP",
+              "campaingId": "5fc154fe4a066f0086565bef",
+              "promotionName": "SUBA3106714MKTP",
+              "promotionConditional": "N",
+              "valuePromotion": 2.03,
+              "valueSeller": 0,
+              "sponsorValue": 2.03,
+              "sponsorPercentage": 100,
+              "typeCalculation": "percentage",
+              "typeCategory": "SUBTOTAL"
+            }
+          ],
+          "franq": ""
+        },
+        "deliveryline:crossborder": {},
+        "deliveryline:freight": {
+          "valueTotal": 17,
+          "valueCharged": 17,
+          "valueCommercial": 0,
+          "timeFreightDays": 6,
+          "idContract": "B2WENDIREC",
+          "typeFreight": "CONVENTIONAL"
+        },
+        "deliveryline:properties": {
+          "properties": {
+            "UNIQUE_ID": "1203400581-21308800000144",
+            "GIFT_ADDRESS_FLAG": "N",
+            "INVENTORY_RESERVE_ID": "0d6317ee-7442-4d8a-8a85-15630a0a4f6a-3e17cf8d-fd89-4e38-a82b-0025bee3bb0c",
+            "STOCK_TRANSACTION_ID": "0d6317ee-7442-4d8a-8a85-15630a0a4f6a",
+            "freightExperimentId": "",
+            "freightExperimentVersion": "",
+            "isFirstLaunch": "false",
+            "productId": "1203409560",
+            "cashbackValue": "0.00"
+          }
+        },
+        "deliveryline:status": {
+          "statusDeliveryline": "JUV",
+          "dateStatusDeliveryline": "2020-11-28T13:26:03.656Z",
+          "systemSource": "JUVENAL"
+        }
+      }
+    },
+    {
+      "id": "352614522102-1",
+      "type": "deliveryline",
+      "event_time": "2020-12-08T19:14:59.215Z",
+      "suba": {
+        "deliveryline:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522102",
+          "idCustomer": "03-4893948878-1",
+          "idDeliveryLine": "352614522102-1",
+          "idSku": "1236305687",
+          "idWarehouse": "98",
+          "nameSku": "KIT DE PINCEL 11 PINCÉIS SEREIA",
+          "typeStock": "IN_STOCK",
+          "natureSku": "product",
+          "timeLeadDays": 1,
+          "timePickupDays": 0,
+          "qtTotal": 1,
+          "idSkuPartner": "285",
+          "marketplacePercentage": 16,
+          "promotion": [
+            {
+              "itemSequence": 1,
+              "promotionId": "SUBA3106599FRT",
+              "campaingId": "5fc14c938cc3d50029428911",
+              "promotionName": "",
+              "promotionConditional": "N",
+              "valuePromotion": 10,
+              "valueSeller": 0,
+              "sponsorValue": 10,
+              "sponsorPercentage": 100,
+              "typeCalculation": "percentage",
+              "typeCategory": "FRETE"
+            },
+            {
+              "itemSequence": 1,
+              "promotionId": "SUBA3106714MKTP",
+              "campaingId": "5fc154fe4a066f0086565bef",
+              "promotionName": "SUBA3106714MKTP",
+              "promotionConditional": "N",
+              "valuePromotion": 7,
+              "valueSeller": 0,
+              "sponsorValue": 7,
+              "sponsorPercentage": 100,
+              "typeCalculation": "percentage",
+              "typeCategory": "SUBTOTAL"
+            }
+          ],
+          "franq": ""
+        },
+        "deliveryline:crossborder": {},
+        "deliveryline:freight": {
+          "valueTotal": 15.92,
+          "valueCharged": 15.92,
+          "valueCommercial": 0,
+          "timeFreightDays": 9,
+          "idContract": "B2WENPAC",
+          "typeFreight": "CONVENTIONAL"
+        },
+        "deliveryline:properties": {
+          "properties": {
+            "UNIQUE_ID": "1236305687-28552079000182",
+            "GIFT_ADDRESS_FLAG": "N",
+            "INVENTORY_RESERVE_ID": "95b4e1bc-ad89-4c28-b8b6-a71538ceaf99-479a81ca-097b-48b3-a6f0-cc906723bca9",
+            "STOCK_TRANSACTION_ID": "95b4e1bc-ad89-4c28-b8b6-a71538ceaf99",
+            "freightExperimentId": "",
+            "freightExperimentVersion": "",
+            "isFirstLaunch": "false",
+            "productId": "1236305661",
+            "cashbackValue": "0.00"
+          }
+        },
+        "deliveryline:status": {
+          "statusDeliveryline": "JUV",
+          "dateStatusDeliveryline": "2020-11-28T13:26:03.656Z",
+          "systemSource": "JUVENAL"
+        }
+      }
+    },
+    {
+      "id": "352614522103-1",
+      "type": "deliveryline",
+      "event_time": "2020-12-08T19:15:40.528Z",
+      "suba": {
+        "deliveryline:general": {
+          "idOrder": "03-526145221",
+          "idDelivery": "352614522103",
+          "idCustomer": "03-4893948878-1",
+          "idDeliveryLine": "352614522103-1",
+          "idSku": "39937649",
+          "idWarehouse": "98",
+          "nameSku": "Kit com 4 Cata-vento Flor Giratória Moinho De Vento Cor Sortido Jardim Criança",
+          "typeStock": "IN_STOCK",
+          "natureSku": "product",
+          "timeLeadDays": 1,
+          "timePickupDays": 0,
+          "qtTotal": 1,
+          "idSkuPartner": "CSJ-3926410",
+          "marketplacePercentage": 16,
+          "promotion": [
+            {
+              "itemSequence": 1,
+              "promotionId": "SUBA2844306MKTP",
+              "campaingId": "5f47c42b21302e00b1ad29cb",
+              "promotionName": "SUBA2844306MKTP",
+              "promotionConditional": "N",
+              "valuePromotion": 1.6,
+              "valueSeller": 0,
+              "sponsorValue": 1.6,
+              "sponsorPercentage": 100,
+              "typeCalculation": "percentage",
+              "typeCategory": "CASHBACK"
+            },
+            {
+              "itemSequence": 1,
+              "promotionId": "SUBA3106599FRT",
+              "campaingId": "5fc14c938cc3d50029428911",
+              "promotionName": "",
+              "promotionConditional": "N",
+              "valuePromotion": 10,
+              "valueSeller": 0,
+              "sponsorValue": 10,
+              "sponsorPercentage": 100,
+              "typeCalculation": "percentage",
+              "typeCategory": "FRETE"
+            }
+          ],
+          "franq": ""
+        },
+        "deliveryline:crossborder": {},
+        "deliveryline:freight": {
+          "valueTotal": 16.03,
+          "valueCharged": 16.03,
+          "valueCommercial": 0,
+          "timeFreightDays": 11,
+          "idContract": "B2WENPAC",
+          "typeFreight": "CONVENTIONAL"
+        },
+        "deliveryline:properties": {
+          "properties": {
+            "UNIQUE_ID": "39937649-3645543000154",
+            "GIFT_ADDRESS_FLAG": "N",
+            "INVENTORY_RESERVE_ID": "2db47eb5-4c72-4fd7-aef4-f0d8503930a1-487fabab-4da8-4a5c-997c-34afae39069a",
+            "STOCK_TRANSACTION_ID": "2db47eb5-4c72-4fd7-aef4-f0d8503930a1",
+            "freightExperimentId": "",
+            "freightExperimentVersion": "",
+            "isFirstLaunch": "false",
+            "productId": "39937646",
+            "cashbackValue": "1.60"
+          }
+        },
+        "deliveryline:status": {
+          "statusDeliveryline": "JUV",
+          "dateStatusDeliveryline": "2020-11-28T13:26:03.656Z",
+          "systemSource": "JUVENAL"
+        }
+      }
+    }
+  ],
+  "deliverypayments": [
+    {
+      "type": "deliverypayment",
+      "id": "352614522103-1",
+      "event_time": "2020-10-29T13:38:55.001Z",
+      "suba": {
+        "deliverypayment:general": {
+          "idOrder": "03-526145221",
+          "idPayment": "352614522103-1",
+          "idDelivery": "352614522103",
+          "paymentMethod": "paymentCreditCardInfo",
+          "valueDue": 95.93,
+          "valueInterest": 0,
+          "rateInterest": 0,
+          "dateDue": "2020-11-30T00:00:00.000-03:00",
+          "paymentTerms": "0",
+          "statusPayment": "APV",
+          "location": "03",
+          "paymentSequencial": 1,
+          "idPaymentType": "1",
+          "sefazIdPayment": "3",
+          "sefazNamePayment": "Cartão de Crédito",
+          "sefazIdCardIssuer": "02",
+          "sefazNameCardIssuer": "Mastercard"
+        },
+        "deliverypayment:method": {
+          "nameCardHolder": "LAMARA C R VIEIRA",
+          "numberCardMasked": "516292####8120",
+          "numberCardEncrypted": "0cfa8ccb07d525397775e311e09dc7357ac06ab62033f1fc21fb0f46690256ad",
+          "numberInstallments": 1,
+          "typeCard": "",
+          "brand": "MASTERCARD",
+          "idBrand": "2",
+          "expirationMonth": "2",
+          "expirationYear": "2027",
+          "cardVerificationCode": "9b726efda8d4994eac8deab31e988b4c",
+          "typePayment": "CARTAO_MASTERCARD",
+          "idAccreditation": "16501555000157",
+          "cardIssuer": "16501555000157",
+          "idAuthorization": "654551",
+          "preAuthorizationKey": "57bb6e9d-2d7b-42a4-82db-bfa12df295d8",
+          "dateTransaction": "2020-11-28T10:27:00.000-03:00"
+        }
+      }
+    },
+    {
+      "type": "deliverypayment",
+      "id": "352614522102-1",
+      "event_time": "2020-10-29T13:38:55.001Z",
+      "suba": {
+        "deliverypayment:general": {
+          "idOrder": "03-526145221",
+          "idPayment": "352614522102-1",
+          "idDelivery": "352614522102",
+          "paymentMethod": "paymentCreditCardInfo",
+          "valueDue": 78.91,
+          "valueInterest": 0,
+          "rateInterest": 0,
+          "dateDue": "2020-11-30T00:00:00.000-03:00",
+          "paymentTerms": "0",
+          "statusPayment": "APV",
+          "location": "03",
+          "paymentSequencial": 1,
+          "idPaymentType": "1",
+          "sefazIdPayment": "3",
+          "sefazNamePayment": "Cartão de Crédito",
+          "sefazIdCardIssuer": "02",
+          "sefazNameCardIssuer": "Mastercard"
+        },
+        "deliverypayment:method": {
+          "nameCardHolder": "LAMARA C R VIEIRA",
+          "numberCardMasked": "516292####8120",
+          "numberCardEncrypted": "0cfa8ccb07d525397775e311e09dc7357ac06ab62033f1fc21fb0f46690256ad",
+          "numberInstallments": 1,
+          "typeCard": "",
+          "brand": "MASTERCARD",
+          "idBrand": "2",
+          "expirationMonth": "2",
+          "expirationYear": "2027",
+          "cardVerificationCode": "9b726efda8d4994eac8deab31e988b4c",
+          "typePayment": "CARTAO_MASTERCARD",
+          "idAccreditation": "16501555000157",
+          "cardIssuer": "16501555000157",
+          "idAuthorization": "225378",
+          "preAuthorizationKey": "99d55186-7d3f-43da-ba58-83e0d1b9f821",
+          "dateTransaction": "2020-11-28T10:28:00.000-03:00"
+        }
+      }
+    },
+    {
+      "type": "deliverypayment",
+      "id": "352614522101-1",
+      "event_time": "2020-10-29T13:38:55.001Z",
+      "suba": {
+        "deliverypayment:general": {
+          "idOrder": "03-526145221",
+          "idPayment": "352614522101-1",
+          "idDelivery": "352614522101",
+          "paymentMethod": "paymentCreditCardInfo",
+          "valueDue": 35.26,
+          "valueInterest": 0,
+          "rateInterest": 0,
+          "dateDue": "2020-11-30T00:00:00.000-03:00",
+          "paymentTerms": "0",
+          "statusPayment": "APV",
+          "location": "03",
+          "paymentSequencial": 1,
+          "idPaymentType": "1",
+          "sefazIdPayment": "3",
+          "sefazNamePayment": "Cartão de Crédito",
+          "sefazIdCardIssuer": "02",
+          "sefazNameCardIssuer": "Mastercard"
+        },
+        "deliverypayment:method": {
+          "nameCardHolder": "LAMARA C R VIEIRA",
+          "numberCardMasked": "516292####8120",
+          "numberCardEncrypted": "0cfa8ccb07d525397775e311e09dc7357ac06ab62033f1fc21fb0f46690256ad",
+          "numberInstallments": 1,
+          "typeCard": "",
+          "brand": "MASTERCARD",
+          "idBrand": "2",
+          "expirationMonth": "2",
+          "expirationYear": "2027",
+          "cardVerificationCode": "9b726efda8d4994eac8deab31e988b4c",
+          "typePayment": "CARTAO_MASTERCARD",
+          "idAccreditation": "16501555000157",
+          "cardIssuer": "16501555000157",
+          "idAuthorization": "201603",
+          "preAuthorizationKey": "1ca11534-5ba3-44ee-932f-4514a4ea8081",
+          "dateTransaction": "2020-11-28T10:28:00.000-03:00"
+        }
+      }
+    }
+  ]
+}
